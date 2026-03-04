@@ -1,0 +1,3 @@
+4.2 Add the following configuration opinion to prj.conf to enable support for floating-point format specifiers, so we can print the temperature readings as floats. 
+The reason why this option is not enabled by default is to save memory space, as enabling this option would increase code size by at least 1Kbytes.
+CONFIG_CBPRINTF_FP_SUPPORT=y
